@@ -16,6 +16,7 @@ public class Main {
 		double newSolde = cb.debiterSolde(25); 
 		System.out.println("Le nouveau solde de mon compte est : " + newSolde);
 		
+		System.out.println("Test for a new push");
 	}
 
 }
