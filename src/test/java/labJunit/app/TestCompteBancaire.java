@@ -26,8 +26,8 @@ class TestCompteBancaire {
 		assertEquals(cb1.crediterSolde(150),250);
 		assertEquals(cb1.solde,250);
 		
-		assertEquals(cb1.crediterSolde(70),320);
-		assertEquals(cb1.solde,320);
+		assertEquals(cb1.crediterSolde(-50),200);
+		assertEquals(cb1.solde,200);
 	}
 
 }
